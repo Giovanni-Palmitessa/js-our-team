@@ -50,7 +50,7 @@ for ( let i = 0; i < teamMembers.length; i++) {
 
     <h3 class="name-surname">${members.nameSurname}</h3>
 
-    <h6 class="job">${members.job}</h6>
+    <h5 class="job">${members.job}</h6>
 </div>`
 };
 

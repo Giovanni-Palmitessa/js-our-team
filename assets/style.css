@@ -7,6 +7,7 @@
 body{
     font-family: sans-serif;
     background-color: antiquewhite;
+    padding-bottom: 2rem;
 }
 
 .container{
@@ -42,4 +43,12 @@ h1{
 
 .card img{
     width: 100%;
+}
+
+.card h3{
+    padding-bottom: 1rem;
+}
+
+.card h5{
+    padding-bottom: 1rem;
 }
