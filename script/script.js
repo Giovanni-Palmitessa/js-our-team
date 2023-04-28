@@ -39,10 +39,6 @@ const teamMembers = [
 
 let cardContainer = document.querySelector('.cards');
 
-const names = document.querySelectorAll('.name-surname');
-
-const jobs = document.querySelectorAll('.job');
-
 for ( let i = 0; i < teamMembers.length; i++) {
     let members = teamMembers[i];
     console.log(`${i}. Nome e Cognome: ${members.nameSurname}, Incarico: ${members.job}, Immagine: ${members.image}.`);
