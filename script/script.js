@@ -45,12 +45,12 @@ for ( let i = 0; i < teamMembers.length; i++) {
 
     // card.innerHTML += ` ${i}. Nome e Cognome: ${members.nameSurname}, Incarico: ${members.job}, Immagine: ${members.image}.`
 
-    cardContainer.innerHTML = `<div class="card">
-    <img src="assets/img/${teamMembers.image}">
+    cardContainer.innerHTML += `<div class="card">
+    <img src="assets/img/${members.image}">
 
-    <h3 class="name-surname">${teamMembers.nameSurname}</h3>
+    <h3 class="name-surname">${members.nameSurname}</h3>
 
-    <h6 class="job">${teamMembers.job}</h6>
+    <h6 class="job">${members.job}</h6>
 </div>`
 };
 
