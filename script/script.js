@@ -23,6 +23,12 @@ const teamMembers = [
         image: 'angela-lopez-social-media-manager.jpg'
     },
 
-    
+
+    {
+        nameSurname: 'Scott Estrada', 
+        job: 'Developer',
+        image: 'scott-estrada-developer.jpg'
+    },
+
     
 ]
