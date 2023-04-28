@@ -35,4 +35,9 @@ const teamMembers = [
         job: 'Graphic Designer',
         image: 'barbara-ramos-graphic-designer.jpg'
     },
-]
+];
+
+for ( let i = 0; i < teamMembers.length; i++) {
+    let members = teamMembers[i];
+    console.log(`${i}. Nome e Cognome: ${members.nameSurname} Incarico: ${members.job} Immagine: ${members.image}.`);
+};
