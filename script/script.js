@@ -30,5 +30,9 @@ const teamMembers = [
         image: 'scott-estrada-developer.jpg'
     },
 
-    
+    {
+        nameSurname: 'Barbara Ramos', 
+        job: 'Graphic Designer',
+        image: 'barbara-ramos-graphic-designer.jpg'
+    },
 ]
