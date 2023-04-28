@@ -31,8 +31,15 @@ h1{
 .cards{
     display: flex;
     flex-wrap: wrap;
+    gap: 2rem;
 }
 
 .card{
-    width: calc(100% / 3);
+    width: calc((100% - 4rem) / 3);
+    border: 1px solid black;
+    text-align: center;
+}
+
+.card img{
+    width: 100%;
 }
