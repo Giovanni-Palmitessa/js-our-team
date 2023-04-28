@@ -37,11 +37,24 @@ const teamMembers = [
     },
 ];
 
-const card = document.querySelector('.card');
+let cardContainer = document.querySelector('.cards');
+
+const names = document.querySelectorAll('.name-surname');
+
+const jobs = document.querySelectorAll('.job');
 
 for ( let i = 0; i < teamMembers.length; i++) {
     let members = teamMembers[i];
     console.log(`${i}. Nome e Cognome: ${members.nameSurname}, Incarico: ${members.job}, Immagine: ${members.image}.`);
 
     // card.innerHTML += ` ${i}. Nome e Cognome: ${members.nameSurname}, Incarico: ${members.job}, Immagine: ${members.image}.`
+
+    cardContainer.innerHTML = `<div class="card">
+    <img src="assets/img/${teamMembers.image}">
+
+    <h3 class="name-surname">${teamMembers.nameSurname}</h3>
+
+    <h6 class="job">${teamMembers.job}</h6>
+</div>`
 };
+
